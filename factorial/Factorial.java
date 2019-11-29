@@ -16,22 +16,22 @@ public class Factorial {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    int valorParaLaMultiplicacion;
-                    int resultado;
+        int valorParaLaMultiplicacion;
+        int resultado;
 
-            valorParaLaMultiplicacion = 8;
+        valorParaLaMultiplicacion = 8;
 
-       int variableDeLaMultiplicacion;
+        int variableDeLaMultiplicacion;
         if (valorParaLaMultiplicacion == 0) {
-     resultado = 1;
-           } else {
-                resultado = 1;
-                for (variableDeLaMultiplicacion = valorParaLaMultiplicacion; variableDeLaMultiplicacion >= 1; variableDeLaMultiplicacion--) {
-             resultado = resultado * variableDeLaMultiplicacion;
+            resultado = 1;
+        } else {
+            resultado = 1;
+            for (variableDeLaMultiplicacion = valorParaLaMultiplicacion; variableDeLaMultiplicacion >= 1; variableDeLaMultiplicacion--) {
+                resultado = resultado * variableDeLaMultiplicacion;
             }
         }
 
-   System.out.println(resultado);
+        System.out.println(resultado);
 
     }
 
